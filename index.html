@@ -6,8 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="h1">0</h1>
+    <button onclick="dodawanie()" id="button">+1</button>
+    <script>
+        function  dodawanie(){
+            let h1 = parseInt(document.getElementById('h1').textContent)
+            document.getElementById('h1').textContent = h1 + 1
 
-    <h1>edited</h1>
-    <h1>trzeci</h1>
+        }
+    </script>
 </body>
 </html>
